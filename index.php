@@ -4,7 +4,7 @@
  * Dictionnaire
  */
 $string = file_get_contents("dictionnaire.txt", FILE_USE_INCLUDE_PATH);
-$dico = explode("\n", $string);
+$dico = explode("\r\n", $string);
 
 // part 1
 echo "le dictionnaire contient : " . count($dico) . ' mots. <br>';
